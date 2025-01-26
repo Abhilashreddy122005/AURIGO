@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Estimates Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BID OPTIMIZER  CHATBOT </h1>
+        <p>Please enter your construction details in the following format:</p>
+        <p>e.g., "For a residential project with a building area of 2660 sq ft, 2 floors, 5 rooms, 3 bathrooms, using wood flooring, pitched roof, slab foundation, and a project duration of 12 months, what would be the estimated bid amount?"</p>
+    </header>
+    <div id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Type your message here...">
+    <button onclick="sendMessage()">Send</button>
+    <canvas id="bidChart" width="400" height="200"></canvas>
+    <footer>
+        <p>&TRIUMPH SQUAD</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
